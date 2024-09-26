@@ -14,7 +14,7 @@ func main(){
     "banana":2,
     "orange":8,
   }
-  fmt.Println("Initial map:", fruits)
+  fmt.Println("Initial fruits:", fruits)
   addTenToEachValue(fruits)
-  fmt.Println("Current map:", fruits)
+  fmt.Println("Current fruits:", fruits)
 }
